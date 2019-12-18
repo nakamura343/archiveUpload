@@ -22,7 +22,7 @@ Tip: 1. 第一个参数为工程的路径, 此路径下需要有 .xcworkspace �
 ```
 
 # 4. Note
-此脚本默认使用.xcworkspace进行构建, 如果不依赖pod, 需要自行改动脚本里面xcodebuild后面的参数
+此脚本默认使用```.xcworkspace```进行构建, 如果工程没用使用pod, 就只有```.xcodeproj```文件, 没有 ```.xcworkspace ```文件, 需要自行改动脚本里面```xcodebuild```后面的参数.
 
 # 5. 简书
 (https://www.jianshu.com/p/eef05892638d)[https://www.jianshu.com/p/eef05892638d]
